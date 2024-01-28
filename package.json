@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-problems",
+  "version": "0.0.1",
+  "description": "This is a collection of all the leetcode problems, their solutions and corresponding explanations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "tsc -w && nodemon dist/app.js"
+  },
+  "keywords": [
+    "typescript",
+    "data",
+    "structures",
+    "algorithms"
+  ],
+  "author": "Swapnodeep Biswas",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.9"
+  }
+}

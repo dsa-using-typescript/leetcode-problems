@@ -1,5 +1,12 @@
 # Leetcode Problems
 
+## Run test file
+
+```terminal
+tsc
+node [./dist/FULL_FILE_PATH]
+```
+
 ## Arrays:
 
 ### Easy

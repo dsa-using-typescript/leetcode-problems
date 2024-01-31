@@ -14,5 +14,5 @@ export interface ISinglyLinkedList<T> {
   toLinkedList(arr: T[]): { message: string; head: ListNode<T> | null }; // O(N)
   printList(): string; // O(N)
   reverseList(): string; // O(N)
-  get tailValue(): T | null;
+  get tailValue(): T | null; // O(N)
 }

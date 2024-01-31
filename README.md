@@ -3,8 +3,7 @@
 ## Run test file
 
 ```terminal
-tsc
-node [./dist/FULL_FILE_PATH]
+npx tsx [./src/FULL_FILE_PATH]
 ```
 
 ## Arrays:

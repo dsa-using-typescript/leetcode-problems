@@ -1,12 +1,12 @@
 import { twoSumUsingHashMap, twoSumUsingTwoPointers } from "./twoSum.js";
 
-type TwoSumType = {
+type TestCaseType = {
   desc: string;
   input: number[];
   target: number;
 };
 
-const testCases: TwoSumType[] = [
+const testCases: TestCaseType[] = [
   {
     desc: "Given array is empty",
     input: [],
@@ -34,10 +34,10 @@ const testCases: TwoSumType[] = [
   },
 ];
 
-(function () {
+(() => {
   console.log("------------------------------------------------------");
 
-  for (let { desc, input, target } of testCases) {
+  for (const { desc, input, target } of testCases) {
     console.log(
       `Description: ${desc} 
         \nInput: [${input}] 
